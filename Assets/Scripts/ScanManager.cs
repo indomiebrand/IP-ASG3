@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class ScanManager : MonoBehaviour
 {
-    public GameObject playAreaPrefab; 
+    public GameObject playAreaPrefab; // assign your play area prefab
     private ARRaycastManager arRaycastManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
     private GameObject spawnedPlayArea;
